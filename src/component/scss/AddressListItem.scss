@@ -1,0 +1,63 @@
+.box{
+    display: flex;
+    align-items : center;
+    background: white;
+    color:black;
+    flex-direction: column;
+    border: 1px solid black;
+    .circle{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    .toggleBox{
+        display: flex;
+        width: 100%;
+        padding-left: var(--padding-list);
+        padding-top: calc(var(--padding-list) * 1.7);
+        cursor: pointer;
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .moreBox{
+        display: flex;
+        width: 100%;
+        display: none;
+        height: 130px;
+    }
+    .buttonDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            outline: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            
+        }
+        .call{
+            color : #1c7a19;
+        }
+        .message{
+            color : #057c91;
+        }
+        .edit{
+            color : #bad61b;
+        }
+        .remove{
+            color : #da1234;
+        }
+    }
+}

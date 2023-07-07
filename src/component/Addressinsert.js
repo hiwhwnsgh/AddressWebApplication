@@ -13,7 +13,7 @@ const AddressInsert = ({onInsert}) => {
         onInsert(value);
         setValue('');
         e.preventDefault(); // 새로고침을 방지하고자 이 함수를 호출
-        console.log(e);
+        console.log(value);
     },[onInsert,value]);
 
     return (

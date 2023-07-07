@@ -1,35 +1,40 @@
 import { useCallback, useRef, useState } from 'react';
-import Component from './component/Address'
-import AddressInsert from './component/Addressinsert';
-import AddressList from './component/AddressList';
-import AddressSearch from './component/AddressSearch';
+import Address from './component/Address'
+import AddAddress from './component/addAddress';
+import { Route, Routes } from 'react-router-dom';
+import Layout from './component/Layout';
 const App =() =>
 {
-  const [names,setName] = useState([{
-    id: 1,
-    text: 'SAndroid',
 
+  const nextId = useRef(3)
+  const [names,setName] = useState([{
+    id : 1,
+    text : "Android"
   },
-  
-  ]);
-  const nextId = useRef(1);
+  {
+    id: 2,
+    text : "IOS"
+  }]);
   const onInsert = useCallback(
     text => {
       const name = {
         id: nextId.current,
         text,
       };
-      setName(names.concat(name));
+      setName(names => names.concat(name));
       nextId.current+=1;
     }
     , [names],
   );
   return(
-    <Component>
-      <AddressInsert onInsert={onInsert}/>
-      <AddressSearch/>
-      <AddressList names={names}/>
-    </Component>
+    <Routes>
+      <Route element={<Layout/>}>
+        <Route path="/" element={<Address/>}/>
+        <Route path="/addAddress" element={<AddAddress/>}/>
+      </Route>
+    </Routes>
+
+    
   )
 }
 

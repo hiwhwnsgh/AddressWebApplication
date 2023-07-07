@@ -1,0 +1,120 @@
+.addPage{
+    width: 512px;
+    height: 620px;
+    background: white;
+    overflow-y: auto;
+    justify-content: flex-start;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    input{
+        
+        height: 27px;
+        font-size : 14px;
+    }
+    select{
+        height: 31px;
+        font-size : 15px;
+    }
+    .imgbutton{
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 3%;
+        background: #73fa7e;
+        color:white;
+        cursor: pointer;
+        &:active{
+            background: #71d87a;
+            color:blue;
+        }
+    }
+    .vertical{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 23px;
+        
+    }
+    
+    .email{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .plusbutton{
+        display: flex;
+        background: none;
+        outline: none;
+        border: none;
+        color: #45cc50;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        &:hover{
+            color:#75e67e
+        }
+        .font_style{
+            font-size:1.05rem;
+            color:black;
+        }
+    }
+    .phone{
+        padding : 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .phoneList{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            .remove{
+                display: flex;
+                background: none;
+                outline: none;
+                border: none;
+                margin-left: 12px;
+                align-items: center;
+                justify-content: center;
+                color:#ff6b6b;
+                cursor : pointer;
+                font-size: 1.5rem;
+                &:hover{
+                    color: #ff8787;
+                }
+            }
+        }
+        
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: 'lightgray';
+        margin-top: 10px;
+        height: 8%;
+        button{
+            background: none;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            width: 40%;
+            height: 100%;
+            font-size: 20px;
+            background: #73fa7e;
+            color:white;
+            &:active{
+                background: #71d87a;
+                color:blue;
+            }
+        }
+    }
+    & + & {
+        border-top : 1px solid #dee2e6;
+    }
+}

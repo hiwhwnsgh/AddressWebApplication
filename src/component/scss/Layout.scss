@@ -1,0 +1,35 @@
+.Layout{
+    width: 512px;
+    height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    .Title{
+        background: #2ac08e;
+        color:white;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        font-size:1.5rem;
+        justify-content: space-between;
+        
+    }
+    
+    .NewAddress{
+        display: flex;
+        background: none;
+        outline: none;
+        border: none;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 2rem;
+        animation-name: keybtn-language;
+        animation-duration: .2s;
+        transition: 0.3s background ease-in;
+        border-radius: 10px;
+        
+    }
+    
+}
