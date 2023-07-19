@@ -1,12 +1,10 @@
 .addPage{
-    width: 512px;
-    height: 620px;
-    background: white;
-    overflow-y: auto;
-    justify-content: flex-start;
+    
     img{
         width: 200px;
         height: 200px;
+        border-radius: 50%;
+        border: solid 1px #c7c7c7;
     }
     input{
         
@@ -18,15 +16,15 @@
         font-size : 15px;
     }
     .imgbutton{
-        width: 100px;
-        height: 30px;
+        width: 120px;
+        height: 40px;
         border: none;
         border-radius: 3%;
-        background: #73fa7e;
-        color:white;
+        margin-top: 10px;
+        
+        font-size: 1.1rem;
         cursor: pointer;
         &:active{
-            background: #71d87a;
             color:blue;
         }
     }
@@ -35,8 +33,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 23px;
-        
+        margin-top: 30px;
     }
     
     .email{
@@ -48,6 +45,7 @@
     .plusbutton{
         display: flex;
         background: none;
+        width: 50%;
         outline: none;
         border: none;
         color: #45cc50;
@@ -104,12 +102,11 @@
             border: none;
             border-radius: 20px;
             width: 40%;
-            height: 100%;
-            font-size: 20px;
-            background: #73fa7e;
-            color:white;
+            height: 40px;
+            background: rgb(239, 239, 239);
+            font-size: 1.1rem;
+            cursor: pointer;
             &:active{
-                background: #71d87a;
                 color:blue;
             }
         }
