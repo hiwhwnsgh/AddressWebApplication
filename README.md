@@ -28,7 +28,8 @@
 |주소록 수정|주소록 검색|
 |![주소록 수정](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/04d93e68-90e2-4ec3-8350-26c2f6963a96)|![주소록 검색](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/bbe3c364-0955-4993-8a0a-e7ac8c39deea)|
 |접기&펼치기|
-|![image](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/34514e5f-b50a-46a5-9d48-7c1cadfc3ac2)|
+|![접기&펼치기](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/34514e5f-b50a-46a5-9d48-7c1cadfc3ac2)|![image](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/227bb094-faee-44bd-b58d-1cc6e7c6e1d3)|
+
 
 <hr>
 
