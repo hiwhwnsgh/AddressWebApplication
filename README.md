@@ -49,7 +49,7 @@
 ![image](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/6c025f9a-98ca-43b8-8a2e-64c7a3145fc1)
 
 ## 향후 개선사항
-- Mysql의 phonenumber 필드를 보면 다중값으로 최소성이 보장되지 않는다. 이 부분에 대해서 좀 더 수정해나갈 예정이다.
+- Mysql의 phonenumber 필드를 보면 다중값으로 최소성이 보장되지 않는다. 이 부분에 대해서 좀 더 수정해나갈 예정이다. 혹은 Mysql을 사용하기 보단 MongoDB를 사용 하는게 더 효율적인거같다.
 - 똑같은 사진이 여러개 저장 되는데 이것 또한 수정해나갈 예정이다.
 
 ## 소감
