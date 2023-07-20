@@ -39,6 +39,9 @@
 - 주소록 저장,수정,삭제 기능 제공
 ### 🌟 프로필 접기&펼치기 기능
 - 주소록의 프로필 하나를 클릭하면 세부정보가 간단히 출력
+### 영상 링크
+[☞ 클릭](https://hiwhwnsgh.tistory.com/entry/%EB%AC%B4%EC%9E%91%EC%A0%95-%EC%A3%BC%EC%86%8C%EB%A1%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%E5%AE%8C-1)
+
 
 ## DB(Mysql)
 ![image](https://github.com/hiwhwnsgh/AddressWebApplication/assets/78071893/6c025f9a-98ca-43b8-8a2e-64c7a3145fc1)
